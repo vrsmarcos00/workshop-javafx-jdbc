@@ -62,15 +62,24 @@
             <TextField fx:id="txtId" editable="false" GridPane.columnIndex="1" />
             <TextField fx:id="txtName" GridPane.columnIndex="1" GridPane.rowIndex="1" />
             <TextField fx:id="txtEmail" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-            <DatePicker fx:id="dpBithDate" prefHeight="31.0" prefWidth="169.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <DatePicker fx:id="dpBirthDate" prefHeight="31.0" prefWidth="169.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
             <TextField fx:id="txtBaseSalary" GridPane.columnIndex="1" GridPane.rowIndex="4" />
             <Label fx:id="labelErrorName" prefHeight="21.0" prefWidth="198.0" textFill="RED" GridPane.columnIndex="2" GridPane.rowIndex="1">
                <padding>
                   <Insets left="5.0" />
                </padding></Label>
-            <Label fx:id="labelErrorEmail" prefHeight="21.0" prefWidth="199.0" textFill="RED" GridPane.columnIndex="2" GridPane.rowIndex="2" />
-            <Label fx:id="labelErrorBirthDate" prefHeight="21.0" prefWidth="219.0" textFill="RED" GridPane.columnIndex="2" GridPane.rowIndex="3" />
-            <Label fx:id="labelErrorBaseSalary" prefHeight="21.0" prefWidth="246.0" textFill="RED" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <Label fx:id="labelErrorEmail" prefHeight="21.0" prefWidth="199.0" textFill="RED" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <padding>
+                  <Insets left="5.0" />
+               </padding></Label>
+            <Label fx:id="labelErrorBirthDate" prefHeight="21.0" prefWidth="219.0" textFill="RED" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <padding>
+                  <Insets left="5.0" />
+               </padding></Label>
+            <Label fx:id="labelErrorBaseSalary" prefHeight="21.0" prefWidth="246.0" textFill="RED" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <padding>
+                  <Insets left="5.0" />
+               </padding></Label>
             <ComboBox fx:id="comboBoxDepartment" prefHeight="31.0" prefWidth="225.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
             <HBox prefHeight="26.0" prefWidth="280.0" spacing="15.0" GridPane.columnIndex="1" GridPane.rowIndex="6">
                <children>
